@@ -1,5 +1,5 @@
-import { render }      from 'preact'
+import { render }     from 'preact'
 
-import { Application } from './application'
+import { Entrypoint } from './application'
 
-render(<Application />, document.querySelector('#app')!)
+render(<Entrypoint />, document.querySelector('#app')!)
